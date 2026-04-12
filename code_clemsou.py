@@ -56,3 +56,4 @@ def convertir_en_liste_de_liste(AVIONS_INITIAL,parametre):
     L_binomes = [[d["id"], d[parametre]] for d in AVIONS_INITIAL]
     return L_binomes
 #print(convertir_en_liste_de_liste(AVIONS_INITIAL, "fuel"))
+
